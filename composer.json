@@ -1,0 +1,23 @@
+{
+    "name": "aliamani/books-info",
+    "description": "Example WordPress Plugin Based on Rabbit Framework!",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "rabbit",
+        "framework"
+    ],
+    "homepage": "https://github.com/aliamanii/veronalabs",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/aliamanii/veronalabs/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "BookManager\\": "src/"
+        }
+    },
+    "require": {
+        "veronalabs/rabbit": "^1.5"
+    }
+}
